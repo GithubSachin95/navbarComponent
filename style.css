@@ -1,0 +1,74 @@
+.body{
+	margin : 100px;
+	padding : 100px;
+	
+}
+
+
+
+.navbar{
+	
+	background-color : #0099ff;
+}
+.brand {
+	font-family: 'Cinzel', serif;
+	font-size : 2em;
+	float : left;
+}
+.navlinks{
+	
+}
+ul{
+	list-style-type: none;
+	overflow: hidden;
+	font-family: 'Cinzel', serif;
+	font-size : 1.2em;
+	margin : 2px;
+}
+li{
+	float :left;
+	margin : 5px;
+	padding : 5px;
+}
+
+#dropdown{
+	border : 1px solid gray;
+	padding : 0px;
+	margin : 0px;
+	position:absolute;
+	z-index:100;
+	background-color : white;
+}
+.dropdownLink{
+	font-size :0.8em;
+	padding : 0px;
+	margin: 0px;
+	
+}
+
+#searchButton{
+	width : 150px;	
+	float : right;
+	position : relative;
+	font-family : 'Cinzel', serif;
+	font-size : 1.2em;
+	color : green;
+	border : 0.5px solid green;
+	}
+	
+#searchBox{
+	margin: 1px;
+	padding : 2px;
+}
+
+.searchBoxClick{
+	border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+	
+}
+
+.flex-container {
+  display: flex;
+ flex-wrap: wrap;
+ 
+}
